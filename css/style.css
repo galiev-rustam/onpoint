@@ -1,0 +1,256 @@
+.page1 {
+  min-width: 1024px;
+  width: auto;
+  min-height: 768px;
+  background: url(../src/1pageBG.png) no-repeat;
+  background-size: contain;
+}
+.page1 h1 {
+  margin: 0;
+  font-size: 47.757px;
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  color: rgb(13, 49, 156);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 95px;
+  top: 130px;
+}
+.page1 .target {
+  font-size: 20px;
+  font-family: "Lato";
+  color: rgb(13, 49, 156);
+  line-height: 1.2;
+  text-align: left;
+}
+.circle {
+  border-radius: 1px solid red;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(222,121,27) 1%, rgb(207,20,55) 100%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(222,121,27) 1%, rgb(207,20,55) 100%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(222,121,27) 1%, rgb(207,20,55) 100%);
+  border-radius: 100%;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+.target1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 54.7%;
+  top: 260px;
+}
+.circle1 {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+.target2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  position: absolute;
+  left: 22.5%;
+  top: 400px;
+}
+.circle2 {
+  width: 40px;
+  height: 40px;
+}
+.target3 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  position: absolute;
+  left: 42%;
+  top: 515px;
+}
+.circle3 {
+  width: 20px;
+  height: 20px;
+}
+.target4 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  position: absolute;
+  left: 77.6%;
+  top: 490px;
+}
+.circle4 {
+  width: 20px;
+  height: 20px;
+}
+.page1 span {
+  font-size: 17px;
+  font-family: "Lato";
+  color: rgb(13, 49, 156);
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 400;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer img {
+  width: 78px;
+  height: 34px;
+}
+.footer p {
+  font-size: 14.327px;
+  font-family: "Gotham Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ellipse {
+  /* position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 300px; */
+}
+
+.page2 {
+  min-width: 1024px;
+  width: auto;
+  min-height: 768px;
+  background: url(../src/ice1.png) 105% top no-repeat,
+              url(../src/ice2.png) 8% 20% no-repeat,
+              url(../src/ice3.png) 20% 60% no-repeat,
+              url(../src/ice4.png) 75% 75% no-repeat,
+              url(../src/BG2.png) no-repeat;
+  background-size: 20%, 5%, 10%, 7%, contain ;
+}
+.page2 h1 {    
+  font-size: 47.757px;
+  font-weight: 100;
+  font-family: "Gotham Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center; 
+  margin: 0;
+  padding: 200px;
+}
+.page3 {
+  min-width: 1024px;
+  min-height: 768px;
+  background: url(../src/BG3.png) no-repeat;
+  background-size: contain;
+}
+.page3 h1 {
+font-size: 32px;
+font-weight: 100;
+font-family: "Gotham Pro";
+color: rgb(255, 255, 255);
+line-height: 1.2;
+text-align: left;
+margin: 0;
+margin-left: 70px;
+}
+.image {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.image1, .image2, .image3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.image1 img,
+.image2 img,
+.image3 img {
+  width: 855px;
+  height: 559px;
+  object-fit: contain;
+  margin-bottom: 60px;
+}
+.image1 h1,
+.image2 h1,
+.image3 h1 {
+  position: absolute;
+  left: 0px;
+}
+
+/* INPUT TYPE RANGE */
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+  
+input[type=range]:focus {
+  outline: none;
+}
+  
+/* Полоса */
+  
+input[type=range]::-webkit-slider-runnable-track {
+  height: 15px;
+  cursor: pointer;
+  background: #435063;
+}
+  
+/* Бегунок */
+ 
+input[type=range]::-webkit-slider-thumb {
+  height: 150px;
+  width: 150px;
+  background: url(../src/range.png) no-repeat;
+  background-position: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -60px;
+}
+.label {
+  display: flex;
+  margin: 20px 100px;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.label p {
+  display: inline-block;
+  font-size: 32px;
+  font-family: "Gotham Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
